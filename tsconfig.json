@@ -19,5 +19,9 @@
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
-  }
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/ngtools/index.ts"
+  ]
 }

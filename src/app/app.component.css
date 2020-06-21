@@ -1,0 +1,54 @@
+.cross-line{
+    text-decoration: line-through;
+}
+
+.discount{
+    color : green;
+    font-style: italic;
+    font-weight: 600;
+    text-align: right;
+
+}
+
+.card{
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+    background-color: #fff;
+    color: #252422;
+    margin-bottom: 20px;
+    border: 0;
+    transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+}
+
+.list-product{
+    margin-top: 2.8%;
+    font-family: "Roboto";
+}
+
+.container{
+    font-family: Roboto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    border: 1px solid #f2f2f2;
+    padding: 15px;
+    transition: box-shadow 0.5s;
+}
+.fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .mod-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+ }
+ .mod-footer .foot-copyright {padding: 10px 0 8px;}
